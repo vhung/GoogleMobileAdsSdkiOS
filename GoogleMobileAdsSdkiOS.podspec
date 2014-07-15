@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
   s.library = 'GoogleAdMobAds'
   s.frameworks = 'StoreKit', 'AudioToolbox', 'AVFoundation', 'MessageUI', 'SystemConfiguration', 'CoreGraphics'
   s.weak_frameworks = 'AdSupport'
-  s.xcconfig  =  { 'OTHER_LDFLAGS' => '-ObjC', 'LIBRARY_SEARCH_PATHS' => '"$(SRCROOT)/Pods/AdMob"' }
+  s.xcconfig  =  { 'OTHER_LDFLAGS' => '-ObjC', 'LIBRARY_SEARCH_PATHS' => '"$(SRCROOT)/Pods/GoogleMobileAdsSdkiOS"' }
 end
