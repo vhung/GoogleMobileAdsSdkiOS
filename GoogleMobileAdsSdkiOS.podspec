@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'GoogleMobileAdsSdkiOS'
   s.platform = :ios, '4.3'
-  s.version = '6.9.3'
+  s.version = '6.10.0'
   s.summary = 'Google Mobile Ads SDK for iOS.'
   s.description = <<-DESC
   This is the Google Mobile Ads SDK for iOS.
